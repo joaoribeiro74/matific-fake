@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.flag {
+  background: url('https://www.matific.com/home/resources/static/react/flags-af487459218e8b0bf5f82595d3a5044a.png') no-repeat !important;
+  background-size: initial !important;
+  background-repeat: no-repeat !important;
+  background-attachment: initial !important;
+  background-origin: initial !important;
+  background-clip: initial !important;
+  background-color: initial !important;
+  display: inline-block;
+  height: 32px; /* Defina a altura da bandeira */
+  width: 32px;  /* Defina a largura da bandeira */
+  position: relative;
+}
+
+.flag.flag-bra {
+  background-position: -448px -32px !important;
+}
