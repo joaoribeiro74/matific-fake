@@ -46,7 +46,7 @@
 }
 
 .flag {
-  background: url('https://www.matific.com/home/resources/static/react/flags-af487459218e8b0bf5f82595d3a5044a.png') no-repeat !important;
+  background: url('./../public/flags.png') no-repeat !important;
   background-size: initial !important;
   background-repeat: no-repeat !important;
   background-attachment: initial !important;

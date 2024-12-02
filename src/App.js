@@ -8,7 +8,7 @@ const App = () => {
   }, []);
 
   return (
-    <div className="bg-auto bg-center bg-no-repeat bg-[url('https://www.matific.com/home/resources/media/filer_public/ac4b253fca6bf2b829b726d2dc3e5235/matific_pattern_13x.png')] pb-24">
+    <div className="bg-auto bg-center bg-no-repeat bg-[url('./../public/back.png')] pb-24">
       <nav className="bg-white border-b shadow-lg z-10 fixed w-full top-0 left-0">
         <div className="mx-auto px-4 sm:px-6 lg:px-5 flex items-center justify-between h-16">
           {/* Logo e Bandeira */}
@@ -83,7 +83,7 @@ const App = () => {
             <h1 className="montserrat text-[43px] leading-[52px] text-[#162736]">
               Líder mundial em aprendizagem matemática com inteligência artificial
             </h1>
-            <p className="text-[14px] leading-[26px] mb-[15px] font-medium">
+            <p className="text-[20px] leading-[26px] mb-[15px] font-medium">
               Atividades gamificadas alinhadas ao seu currículo, com pedagogia
               premiada e desenvolvidas por especialistas em Educação.
               <br />
@@ -102,9 +102,8 @@ const App = () => {
             <div className="m-auto w-full shadow-lg border-white border-[16px] rounded-[30px]">
               <picture className="w-full h-full">
                 <img
-                  src="https://www.matific.com/home/resources/media/images-2/video-thum/v-thum-24.png"
+                  src="/imagemvideo.png"
                   className="w-[800px] rounded-[15px] cursor-pointer"
-                  alt="Imagem de vídeo"
                 />
               </picture>
 
