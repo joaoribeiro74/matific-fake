@@ -1,7 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import { useEffect } from 'react';
 
-function App() {
+const App = () => {
+  useEffect(() => {
+    // Muda a URL para a página desejada
+    window.history.pushState({}, '', '/bra/pt-br/home/'); // Não recarrega a página
+    // Ou, se você quiser forçar o navegador a carregar a nova URL:
+    // window.location.href = '/nova-url'; 
+  }, []);
+
   return (
     <div className="bg-auto bg-center bg-no-repeat bg-[url('https://www.matific.com/home/resources/media/filer_public/ac4b253fca6bf2b829b726d2dc3e5235/matific_pattern_13x.png')] pb-24">
       <nav className="bg-white border-b shadow-lg z-10 fixed w-full top-0 left-0">
