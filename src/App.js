@@ -4,10 +4,7 @@ import { useEffect } from 'react';
 
 const App = () => {
   useEffect(() => {
-    // Muda a URL para a página desejada
-    window.history.pushState({}, '', '/bra/pt-br/home/'); // Não recarrega a página
-    // Ou, se você quiser forçar o navegador a carregar a nova URL:
-    // window.location.href = '/nova-url'; 
+    window.history.pushState({}, '', '/bra/pt-br/home/'); 
   }, []);
 
   return (
@@ -86,7 +83,7 @@ const App = () => {
             <h1 className="montserrat text-[43px] leading-[52px] text-[#162736]">
               Líder mundial em aprendizagem matemática com inteligência artificial
             </h1>
-            <p className="text-[20px] leading-[26px] mb-[15px] font-medium">
+            <p className="text-[14px] leading-[26px] mb-[15px] font-medium">
               Atividades gamificadas alinhadas ao seu currículo, com pedagogia
               premiada e desenvolvidas por especialistas em Educação.
               <br />
